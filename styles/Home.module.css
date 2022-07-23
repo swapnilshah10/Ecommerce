@@ -10,6 +10,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: white url(/giphy.webp) no-repeat center / 100% auto;
+  color : black;
 }
 
 .footer {
@@ -31,6 +33,7 @@
 .title a {
   color: #0070f3;
   text-decoration: none;
+ 
 }
 
 .title a:hover,
@@ -43,11 +46,13 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  background-color: #f1f4f7;
 }
 
 .title,
 .description {
   text-align: center;
+  background-color: #f1f4f7;
 }
 
 .description {
