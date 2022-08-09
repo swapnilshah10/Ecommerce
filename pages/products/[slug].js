@@ -1,4 +1,4 @@
-import { useRouter } from "next/router";
+  import { useRouter } from "next/router";
 import Carousel from "../../components/MainCarousel";
 import "bootstrap/dist/css/bootstrap.css";
 import Link from "next/link";
@@ -7,6 +7,7 @@ import { useState } from "react";
 const Product = () => {
   const router = useRouter();
   const { slug } = router.query;
+  console.log(slug);
   const [counters, setCounter] = useState(1);
 
   let incrementCounter = () => {

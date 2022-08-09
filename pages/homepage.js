@@ -22,11 +22,11 @@ function homepage() {
       <br></br>
       <div style={{display: 'flex'}}>
       <Card  cardtitle  = "abc" />
-      {/* <Card />
       <Card />
       <Card />
       <Card />
-      <Card /> */}
+      <Card />
+      <Card />
       </div>
       <br></br>
       Trending
