@@ -1,9 +1,8 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.css";
 import { useEffect } from "react";
 import Link from "next/link";
 import MainCarousel from "../components/MainCarousel";
-import Carousel from "../components/Carousel";
+import Carousel from "../components/Carousel123";
 import Card from "../components/Card";
 
 function homepage() {
@@ -13,49 +12,54 @@ function homepage() {
 
   return (
     <>
-    <style jsx>{
-      `
-      `
-    }
-    </style>
-      <MainCarousel/>
+      <style jsx>{``}</style>
+      <MainCarousel />
       <br></br>
-      <div style={{display: 'flex'}}>
-      <Card  cardtitle  = "abc" />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      <div className="d-flex flex-wrap justify-content-center">
+        <Card
+          cardData={{
+            title: "Shure SE846 BT2-EFS Wireless Audiophile Earphones",
+            image:
+              "https://www.audiosanctuary.co.uk/images/detailed/15/audiosanctuary_shure_se846_blue.jpg",
+            description:
+              "SE846 Sound Isolating earphones feature four high-definition drivers for extended high-end clarity and a groundbreaking low-pass filter for ...",
+            price: "799",
+          }}
+        />
+        <Card />
+        <Card />
+        <Card />
       </div>
       <br></br>
-      Trending
-      {/* <Carousel/> */}
+      <Carousel />
+      <h3 className="text-center">Trending</h3>
       <div>
-    
-        <div className="container text-center">
-          <h3>What We Do
-          </h3>
+        <div className="container text-center mt-5">
+          <h3>What We Do</h3>
           <br />
-          <p>E-commerce (electronic commerce) is the activity of electronically buying or selling of products on online services or over the Internet. E-commerce draws on technologies such as mobile commerce, electronic funds transfer, supply chain management, Internet marketing, online transaction processing, electronic data interchange (EDI), inventory management systems, and automated data collection systems. E-commerce is in turn driven by the technological advances of the semiconductor industry, and is the largest sector of the electronics industry.</p>
-          <div className="row">
+          <p>
+            E-commerce (electronic commerce) is the activity of electronically
+            buying or selling of products on online services or over the
+            Internet. E-commerce draws on technologies such as mobile commerce,
+            electronic funds transfer, supply chain management, Internet
+            marketing, online transaction processing, electronic data
+            interchange (EDI), inventory management systems, and automated data
+            collection systems. E-commerce is in turn driven by the
+            technological advances of the semiconductor industry, and is the
+            largest sector of the electronics industry.
+          </p>
+          <div className="row mt-5">
             <div className="col-sm-4">
-              <img
-                src="https://placehold.it/150x80?text=IMAGE"
-                className="img-responsive"
-                style={{ width: "100%" }}
-                alt="Image"
-              />
-              <p>Current Project <br></br> Working on ecommerce website using next js for front end</p>
+              <p>
+                Current Project <br></br> Working on ecommerce website using
+                next js for front end
+              </p>
             </div>
             <div className="col-sm-4">
-              <img
-                src="https://placehold.it/150x80?text=IMAGE"
-                className="img-responsive"
-                style={{ width: "100%" }}
-                alt="Image"
-              />
-              <p>Inotebook <br></br> Used to save notes on innotebook and access via login</p>
+              <p>
+                Inotebook <br></br> Used to save notes on innotebook and access
+                via login
+              </p>
             </div>
             <div className="col-sm-4">
               <div className="well">

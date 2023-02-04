@@ -53,16 +53,16 @@ function Navbar() {
                 Dropdown
               </a>
               <ul className="dropdown-menu">
+                  <li>
                 <Link href="/about">
-                  <li>
                     <a className="dropdown-item">About us</a>
-                  </li>
                 </Link>
-                <Link href="/cart">
+                  </li>
                   <li>
-                    <a className="dropdown-item">Another action</a>
+                <Link href="/cart">
+                    <a className="dropdown-item">Cart</a>
+                </Link> 
                   </li>
-                </Link>
               </ul>
             </li>
           </ul>

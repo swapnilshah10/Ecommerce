@@ -13,6 +13,7 @@
     "bootstrap": "^5.2.0",
     "next": "12.2.3",
     "react": "18.2.0",
+    "react-bootstrap": "^2.7.0",
     "react-dom": "18.2.0",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.3.0"

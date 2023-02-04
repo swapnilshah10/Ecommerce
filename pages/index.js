@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 
 
 export default function Home() {
-  setTimeout(myFucntion , 2000);
+  setTimeout(myFucntion , 500);
   const router = useRouter();
   function myFucntion(){
     router.push('/login')
