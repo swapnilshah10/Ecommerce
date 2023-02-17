@@ -18,7 +18,12 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
+## Description
+The e-commerce website built using Next.js is a fully functional online store that allows users to browse through different products and purchase them using a shopping cart. The website provides a user-friendly interface for customers to easily navigate and search for products they are interested in.
 
+The website includes features such as a product listing page, product details page, shopping cart functionality. The website also includes a responsive design that can adapt to different screen sizes, making it accessible to customers using different devices.
+
+The project is built using Next.js, a popular React framework, and includes other technologies such as Bootstrap for styling and React hooks for state management.
 ## Screenshots
 
 <img src="https://github.com/swapnilshah10/Ecommerce/blob/master/img/s1.png"  >
