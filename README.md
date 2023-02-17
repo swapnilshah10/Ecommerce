@@ -20,7 +20,9 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 
 ## Screenshots
-img\s1.png
-img\s2.png
-img\s3.png
-img\s4.png
+
+<img src="https://github.com/swapnilshah10/Ecommerce/blob/master/img/s1.png"  >
+<img src="https://github.com/swapnilshah10/Ecommerce/blob/master/img/s2.png"  >
+<img src="https://github.com/swapnilshah10/Ecommerce/blob/master/img/s3.png"  >
+<img src="https://github.com/swapnilshah10/Ecommerce/blob/master/img/s4.png"  >
+
